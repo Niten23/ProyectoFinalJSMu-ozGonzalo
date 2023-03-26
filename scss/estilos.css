@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(126, 40, 180);
+  max-width: 100%;
+}
+
+header {
+  overflow-x: hidden;
+  justify-content: space-between;
+  width: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgb(0, 0, 0);
+  padding: 5px 5%;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 10rem;
+}
+
+.logo {
+  align-items: center;
+  height: 80px;
+  width: auto;
+  padding: 10px;
+  border-radius: 90px;
+  margin-left: 20px;
+}
+
+.card-container-fluid {
+  margin-left: 20px;
+  width: 100%;
+}
+
+header .menu li a {
+  text-decoration: none;
+  font-size: 700;
+}
+header .menu li:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+/*nav bar*/
+nav {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0);
+  padding: 0%;
+  margin: 0%;
+}
+
+.ms-auto {
+  margin-right: 100px;
+}
+
+.navegacion_nav li ul {
+  justify-content: flex-end;
+}
+
+/* fin nav bar*/
+.menu {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.menu li {
+  display: inline;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  height: auto;
+  width: auto;
+  display: grid;
+}
+
+.image {
+  display: grid;
+  justify-content: center;
+}
+.image > .frente {
+  justify-content: center;
+  align-self: center;
+  height: 400px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.menucafe > .fotomenu {
+  justify-content: center;
+  align-self: center;
+  height: 400px;
+  width: auto;
+  border-radius: 8px;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background-image: url(../images/pexels-afta-putta-gunawan-683039.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0%;
+  position: relative;
+  overflow: hidden;
+}
+
+/*fin jumbotron*/
+p {
+  text-align: justify;
+}
+
+div.Sobre_nosotros {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.menucafe {
+  display: grid;
+  justify-content: center;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  color: rgb(161, 158, 163);
+  background-color: #000000;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+  float: left;
+}
+footer i {
+  letter-spacing: 20px;
+  font-size: 40px;
+  color: blueviolet;
+  padding-left: 5px;
+}
+footer i:hover {
+  text-shadow: 0 0 5px #fff;
+}
+footer p {
+  text-align: center;
+}
+footer footer {
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+footer footer parrafofooter {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/*fin footer*/
+.img1 {
+  width: 782px;
+  aspect-ratio: auto 782/355;
+  height: 355px;
+}
+
+h3 {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border: 2px solid black;
+}
+
+.nleft {
+  background-image: url(../images/Menu\ cafe\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  filter: grayscale(50%);
+}
+
+.nrigth h4 {
+  text-align: center;
+  text-shadow: 0 0 5px blueviolet;
+}
+
+h5 {
+  background-color: #000000;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.item {
+  height: 200px;
+  border: 3px solid blueviolet;
+  margin: 0;
+}
+
+.item1 {
+  background-image: url(../images/cafe23.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(../images/Croasant.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url(../images/churrotes2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url(../images/istockphoto-1366930231-170667a.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item5 {
+  background-image: url(../images/pexels-arshad-sutar-1749303.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url(../images/z-graphica-FxfCQht9VPE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item7 {
+  background-image: url(../images/menu\ 2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item8 {
+  background-image: url(../images/churrotes.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item9 {
+  background-image: url(../images/croasant\ 2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner-fluid-desayunos,
+.footermenu {
+  margin: 0;
+}
+
+div p {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-img-top {
+  justify-content: center;
+  height: 412px;
+  width: 330px;
+}
+
+.card {
+  height: 412px;
+  width: 330px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  height: 412px;
+  width: 330px;
+  border: 10px;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(78, 1, 97, 0.518);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: #111;
+}
+
+.card-container .card img {
+  height: 190px;
+  width: auto;
+}
+
+.card-container .card h3 {
+  font-weight: 600;
+  color: aliceblue;
+  margin: 30px 10px 10px 10px;
+}
+
+.card-container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  color: aliceblue;
+}
+
+.card-container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 4px 15px rgb(221, 196, 237);
+}
+
+.row {
+  overflow-x: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  width: 360px;
+  background-color: #000000;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

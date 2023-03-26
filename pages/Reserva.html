@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+
+
+<body class="reservas_formulario">
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo cafe.png" alt="logo cafeteria" class="logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Reserva.html">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/ubicación.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/Productos e-comerce.html">ECOMMERCE</e-comerce></a>
+                  </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <div class="jumbotron">
+    <h1>Nuestra empresa</h1>
+  </div>
+
+
+
+  <form action="formulario">
+
+    <fieldset>
+      <legend>Reservas</legend>
+      <p>Seleccionar</p>
+      <div>
+        <div>Mesa 1-2 personas</div>
+        <input type="radio" name="mesa" value="1-2 Personas">
+        <div>Mesa 3-6 personas</div>
+        <input type="radio" name="mesa" value="3-6 Personas">
+        <div>Mesa 6-10 personas</div>
+        <input type="radio" name="mesa" value="6-10 personas">
+      </div>
+
+
+      <legend>Datos de reserva</legend>
+      <label for="nombre">Apellido y Nombre</label>
+      <input type="text" name="nombre">
+
+      <label for="correo">E-mail</label>
+      <input type="email" name="correo" placeholder="juanmontoto@email.com">
+
+      <label>Telefono:
+        <input type="number">
+      </label>
+
+      <label>Horario de reserva:
+        <input type="time">
+      </label>
+
+      <label>Horario de reserva:
+        <input type="date">
+      </label>
+
+
+      <p>Chequeo</p>
+      <input type="checkbox" name="aceptar" value="verdadero">
+      <span>Aceptar terminos y condiciones</span>
+
+      <input type="text">
+      <input type="submit" value="Enviar reserva">
+      <input type="reset" value="Limpiar datos">
+      <input type="button" value="sin acciones">
+
+
+    </fieldset>
+
+  </form>
+
+
+  <footer>
+
+    <div class="parrafofooter">
+        <P class="parra">Nuestras redes</P>
+    </div>
+
+    <div class="redes_sociales">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+
+    </div>
+
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

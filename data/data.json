@@ -1,0 +1,65 @@
+[
+  {
+     "id":1,
+     "nombre":"Café House",
+     "precio":5000,
+     "cantidad":1,
+     "img":"HouseBlend.png"
+  },
+  {
+     "id":2,
+     "nombre":"Café Brasil",
+     "precio":4500,
+     "cantidad":1,
+     "img":"Brasil.png"
+  },
+  {
+     "id":3,
+     "nombre":"Café Colombia",
+     "precio":8000,
+     "cantidad":1,
+     "img":"Colombia.png"
+  },
+  {
+     "id":4,
+     "nombre":"Café Bourbon",
+     "precio":3500,
+     "cantidad":1,
+     "img":"Bourbon.png"
+  },
+  {
+     "id":5,
+     "nombre":"Cafe Salvador",
+     "precio":3200,
+     "cantidad":1,
+     "img":"Salvador.png"
+  },
+  {
+     "id":6,
+     "nombre":"Café Costa Rica",
+     "precio":2500,
+     "cantidad":1,
+     "img":"CostaRica.png"
+  },
+  {
+     "id":7,
+     "nombre":"Café Oeiras",
+     "precio":2000,
+     "cantidad":1,
+     "img":"Oeiras.png"
+  },
+  {
+     "id":8,
+     "nombre":"Café Catuai",
+     "precio":1800,
+     "cantidad":1,
+     "img":"Catuai.png"
+  },
+  {
+     "id":9,
+     "nombre":"Café Perú",
+     "precio":3100,
+     "cantidad":1,
+     "img":"Peru.png"
+  }
+]
