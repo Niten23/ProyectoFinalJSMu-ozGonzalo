@@ -42,7 +42,7 @@ class Usuario {
 
 function guardarUsuario(usuario) {
   if (userReg.value !== '' && email.value !== '' && passReg.value !== '') {
-    window.location.href = '../index.html';
+    window.location.href = '../pages/Productos e-comerce.html';
     return usuarios.push(usuario);
   } else {
     document.querySelector('#mensaje').innerText = 'Campos requeridos.';
